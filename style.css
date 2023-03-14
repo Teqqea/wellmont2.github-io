@@ -629,6 +629,7 @@ span.text {
     .box {
         padding-bottom: 100%; 
         max-width: 300px;
+	margin-top: 20%;
        
     }
 }
