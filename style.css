@@ -718,7 +718,7 @@ span.text {
 
 .box input[type="text"]:focus, .box input[type="email"]:focus, textarea:focus {
     transition: 0.25s;
-    width: 280px;
+    width: 110%;
     border-color: #18f98f;
 }
 
