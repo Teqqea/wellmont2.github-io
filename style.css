@@ -595,6 +595,22 @@ span.text {
      
 }
 
+@media only screen and (max-width:600px) and (min-width:0px){ 
+.sp{
+  width: 80%;
+  margin: 10px 40px;
+   border-radius: 20px;
+   
+}
+
+.fp{
+  width: 80%;
+  margin: 0 40px;
+   border-radius: 20px;
+   
+}
+}
+
 /*FORM*/
 
 
