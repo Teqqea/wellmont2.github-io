@@ -381,6 +381,8 @@ span.text {
   flex-wrap: wrap;
 }
 
+
+
 .container .card{
    position: relative;
    width: 400px;
@@ -388,6 +390,17 @@ span.text {
    margin: 20px;
    background: whitesmoke;
    border-radius: 20px 0 20px 20px;
+}
+
+@media screen and (max-width: 480px){
+  .container{
+    width: 1200px;
+
+  } 
+
+  .container .card{
+    width: 300px;
+  }
 }
 
 .container .card::before{
@@ -437,6 +450,8 @@ span.text {
   height: 700px;
 }
 
+
+
 .container .card .content::before{
   content:'';
   position: absolute;
@@ -484,6 +499,7 @@ span.text {
   background: #46c269;
 }
 
+
 .container .card .more::before{
   content:'ZISTIŤ VIAC';
 }
@@ -491,6 +507,27 @@ span.text {
 .container .card.active .more::before{
   content:'SKRYŤ';
 }
+
+
+@media screen and (max-width: 480px){
+  
+
+  .container .card.active .content{
+    transition: all 1s;
+    height: auto;
+  }
+  
+.container .card.active .content2{
+  transition: all 1s;
+  height: 1350px;
+}
+
+.container .card.active .content3{
+  transition: all 1s;
+  height: 920px;
+}
+}
+
 
 
 
