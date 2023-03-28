@@ -519,12 +519,12 @@ span.text {
   
 .container .card.active .content2{
   transition: all 1s;
-  height: 1350px;
+  height: 1550px;
 }
 
 .container .card.active .content3{
   transition: all 1s;
-  height: 920px;
+  height: 1200px;
 }
 }
 
