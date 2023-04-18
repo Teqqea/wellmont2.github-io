@@ -369,7 +369,6 @@ span.text {
   align-items: center;
   min-height: 80vh;
 
-
 }
 
 .container{
@@ -377,15 +376,16 @@ span.text {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1500px;
+  width: 1700px;
   flex-wrap: wrap;
 }
 
 
 
 .container .card{
+  transition: all 1s;
    position: relative;
-   width: 400px;
+   width: 500px;
    padding: 40px;
    margin: 20px;
    background: whitesmoke;
@@ -404,6 +404,7 @@ span.text {
 }
 
 .container .card::before{
+  transition: all 1s;
   content: '';
   position: absolute;
   top: 0;
@@ -425,11 +426,12 @@ span.text {
 }
 
 .container .card .icon img{
-  max-width: 120px;
-  border-radius: 50px;
+  max-width: 150px;
+  border-radius: 60px;
 }
 
 .container .card .content{
+  transition: all 1s;
   position: relative;
   height: 215px;
   overflow:hidden;
@@ -459,7 +461,7 @@ span.text {
   left: 0;
   width: 100%;
   height: 100px;
-  background: linear-gradient(transparent,hsl(0, 0%, 63%));
+  background: linear-gradient(transparent,hsl(0, 0%, 80%));
 }
 
 
@@ -510,7 +512,9 @@ span.text {
 
 
 @media screen and (max-width: 480px){
-  
+  .container .card .content{
+    transition: all 1s;
+  }
 
   .container .card.active .content{
     transition: all 1s;
